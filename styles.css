@@ -52,3 +52,6 @@ footer{
     position: fixed;
     color: #000;
 }
+.content p{
+    font-size: 20px;
+}
