@@ -2,6 +2,36 @@
     <head>
         <title>Contact Us</title>
         <link rel="stylesheet" href="styles.css"/>
+        <script>
+            function validate()
+            {
+             var username = document.signup.uname.value;
+             var firstname = document.signup.fname.value;
+             var lastname = document.signup.lname.value;
+             var password = document.signup.passw.value;
+             var cpassword = document.signup.cpassw.value;
+ 
+             if(username=="" || firstname=="" || lastname=="" || password=="" || cpassword=="")
+             {
+                 alert("Fill in all the fields")
+             }
+             else{
+                 if(password.length<8 || password.length>15) 
+                     {
+                         alert("Password should be between 8-15 characters long")
+                     }
+                     else{
+                         if(pass != cpassword)
+                         {
+                             alert("Password and Confirm password should match")
+                         }
+                         else{
+                             alert("Form submitted successfully")
+                         }
+                     }
+             }
+            } 
+         </script>
     </head>
     <body>
         <header>
@@ -12,11 +42,11 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="characters.html">Characters</a></li>
                 <li><a href="updates.html">Updates</a></li>
-                <li><a href="store.html">Store</a></li>
                 <li><a class="active" href="contactUs.html">Contact Us</a></li>
             </ul>
         </header>
         <div class="content">
+            <p class="CUtext">Please sign up to reach out to us!!</p>
             <form name="signup">
                 <fieldset>
                     <legend>Sign up</legend>
@@ -42,11 +72,12 @@
                         <td><input type="password" name="cpassw"/><br/></td>
                     </tr>
                     <tr>
-                        <td colspan="2" align="center"><input type="submit"/></td>
+                        <td colspan="2" align="center"><input type="submit" onclick="validate();" value="Sign up"/></td>
                     </tr>
                 </table>
                 </fieldset>
             </form>
+            <p class="CUtext">Email us at <b>HolyWarGenesis@gmail.com</b></p>
         </div>
         <footer>
             Copyright &copy; Mark Munoz & Gabriel Cardenas
