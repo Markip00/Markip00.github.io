@@ -59,9 +59,42 @@ footer{
     font-size: 100px;
     text-align: center;
 }
+.content img.comingsoon{
+    border: #000 none;
+    margin-left: 500px;
+}
+.content p.charaText{
+    font-size: 30px;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 100px;
+}
 .content form{
     width: max-content;
     display: flex;
     margin-left: 570px;
     margin-top: 100px;
+}
+.character-nav{
+    background-color: #710c04;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.character-nav a{
+    font-size: 20px;
+    color:#000;
+}
+.character-nav .current{
+    color: #41424c;
+}
+.content img{
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: #000 dashed;
+    border-radius: 100px;
 }
