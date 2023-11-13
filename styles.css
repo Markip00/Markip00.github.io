@@ -55,6 +55,13 @@ footer{
 .content p{
     font-size: 20px;
 }
+.content.CUtext{
+    font-size: 100px;
+    text-align: center;
+}
 .content form{
     width: max-content;
+    display: flex;
+    margin-left: 570px;
+    margin-top: 100px;
 }
