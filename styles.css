@@ -7,6 +7,8 @@ header{
     align-items: center;
     background-color: #ce2029;
     padding-top: 10px;
+    position: sticky;
+    top:0;
 }
 .heading{
     color:#000;
