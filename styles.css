@@ -7,6 +7,8 @@ header{
     align-items: center;
     background-color: #ce2029;
     padding-top: 10px;
+    position: sticky;
+    top:0;
 }
 .heading{
     color:#000;
@@ -88,16 +90,22 @@ footer{
     color: #41424c;
 }
 .content p{
-    width: 750px;
+    font-size: 20px;
 }
 .content img{
     padding: 5px;
+<<<<<<< HEAD
     margin-top: 100px;
+=======
+>>>>>>> ed8df68a506a16cfac17efde2eb58b019f47c311
     margin-left: 530px;
     margin-bottom: 20px;
     border:#000;
     border-radius: 100px;
+<<<<<<< HEAD
     align-self: center;
+=======
+>>>>>>> ed8df68a506a16cfac17efde2eb58b019f47c311
 }
 .content .h1{
    text-align: center;
