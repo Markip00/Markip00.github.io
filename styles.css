@@ -90,18 +90,14 @@ footer{
     color: #41424c;
 }
 .content p{
-    width: 750px;
+    font-size: 20px;
 }
 .content img{
-    position: absolute;
     padding: 5px;
-    margin-top: 100px;
-    margin-left: 750px;
     margin-left: 530px;
     margin-bottom: 20px;
     border:#000;
     border-radius: 100px;
-    top: 75px;
 }
 .content .h1{
    text-align: center;
