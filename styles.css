@@ -94,26 +94,22 @@ footer{
 }
 .content img{
     padding: 5px;
-<<<<<<< HEAD
-    margin-top: 100px;
-=======
->>>>>>> ed8df68a506a16cfac17efde2eb58b019f47c311
     margin-left: 530px;
     margin-bottom: 20px;
     border:#000;
     border-radius: 100px;
-<<<<<<< HEAD
-    align-self: center;
-=======
->>>>>>> ed8df68a506a16cfac17efde2eb58b019f47c311
 }
 .content .h1{
    text-align: center;
 }
 .contentHome p{
-text-align: left;
-font-size: 30px;
+    text-align: left;
+    font-size: 30px;
+    width: 600px;
 }
 .contentHome img{
-
+    margin-top: -550px;
+    float: right;
+    border:#000;
+    border-radius: 100px;
 }
