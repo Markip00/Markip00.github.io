@@ -105,11 +105,11 @@ footer{
 }
 .contentHome p{
     text-align: left;
-    font-size: 30px;
-    width: 600px;
+    font-size: 29px;
+    width: 700px;
 }
 .contentHome img{
-    margin-top: -550px;
+    margin-top: -475px;
     float: right;
     border:#000;
     border-radius: 100px;
